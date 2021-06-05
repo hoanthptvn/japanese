@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  font-size: 14px;
+  font-family: "Hiragino Mincho Pro", "ヒラギノ角ゴ ProN W3", "HiraKakuProN-W3",
+    "ヒラギノ角ゴ Pro W3", "HiraKakuPro-W3", "メイリオ", Meiryo,
+    "ＭＳ Ｐゴシック", "MS Pgothic", "Osaka", sans-serif, Helvetica,
+    Helvetica Neue, Arial, Verdana;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
