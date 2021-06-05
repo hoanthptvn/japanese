@@ -1,19 +1,8 @@
-$(function () {
-  var inputRadio = $("input[name='radio_issue4']");
-  var iptOther = $(".ipt_other");
-  var rdoOther = $(".rdo_other");
-  $(".inner").slideUp();
-  inputRadio.on("click", function () {
-    if ($(this).hasClass("rdo_other")) {
-      $(".inner").slideDown();
-      iptOther.prop("disabled", false).focus();
-    } else {
-      iptOther.prop("disabled", true);
-      iptOther.val("");
-      $(".inner").slideUp();
-    }
-  });
-  iptOther.on("click", function () {
-    rdoOther.prop("checked", true);
-  })
-})
+if (
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  )
+) {
+  // set the body class
+  document.getElementsByTagName("body")[0].className += "mobile";
+}
