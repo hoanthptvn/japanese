@@ -8,20 +8,12 @@
 
 body {
   background: #fff;
-  font-size: 14px;
-  font-family: "Hiragino Mincho Pro", "ヒラギノ角ゴ ProN W3", "HiraKakuProN-W3", "ヒラギノ角ゴ Pro W3", "HiraKakuPro-W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS Pgothic", "Osaka", sans-serif, Helvetica, Helvetica Neue, Arial, Verdana;
+  font-size: 40px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
-}
-
-.mobile .body,
-.mobile .header,
-.mobile .main,
-.mobile .footer,
-.mobile #someOtherElement {
-  font-family: "Hiragino Mincho Pro", "ヒラギノ角ゴ ProN W3", "HiraKakuProN-W3", "ヒラギノ角ゴ Pro W3", "HiraKakuPro-W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS Pgothic", "Osaka", sans-serif, Helvetica, Helvetica Neue, Arial, Verdana;
 }
 /*# sourceMappingURL=style.css.map */
